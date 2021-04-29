@@ -1,0 +1,9 @@
+C:\Users\titas\RiderProjects\Project_Euler_Problems\Project_Euler_Problems\obj\Debug\net471\Project_Euler_Problems.csprojAssemblyReference.cache
+C:\Users\titas\RiderProjects\Project_Euler_Problems\Project_Euler_Problems\obj\Debug\net471\Project_Euler_Problems.AssemblyInfoInputs.cache
+C:\Users\titas\RiderProjects\Project_Euler_Problems\Project_Euler_Problems\obj\Debug\net471\Project_Euler_Problems.AssemblyInfo.cs
+C:\Users\titas\RiderProjects\Project_Euler_Problems\Project_Euler_Problems\obj\Debug\net471\Project_Euler_Problems.csproj.CoreCompileInputs.cache
+C:\Users\titas\RiderProjects\Project_Euler_Problems\Project_Euler_Problems\bin\Debug\net471\Project_Euler_Problems.exe.config
+C:\Users\titas\RiderProjects\Project_Euler_Problems\Project_Euler_Problems\bin\Debug\net471\Project_Euler_Problems.exe
+C:\Users\titas\RiderProjects\Project_Euler_Problems\Project_Euler_Problems\bin\Debug\net471\Project_Euler_Problems.pdb
+C:\Users\titas\RiderProjects\Project_Euler_Problems\Project_Euler_Problems\obj\Debug\net471\Project_Euler_Problems.exe
+C:\Users\titas\RiderProjects\Project_Euler_Problems\Project_Euler_Problems\obj\Debug\net471\Project_Euler_Problems.pdb

@@ -1,0 +1,36 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\titas\\RiderProjects\\Project_Euler_Problems\\Project_Euler_Problems\\Project_Euler_Problems.csproj",
+    "projectName": "Project_Euler_Problems",
+    "projectPath": "C:\\Users\\titas\\RiderProjects\\Project_Euler_Problems\\Project_Euler_Problems\\Project_Euler_Problems.csproj",
+    "outputPath": "C:\\Users\\titas\\RiderProjects\\Project_Euler_Problems\\Project_Euler_Problems\\obj\\",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "net471"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "net471": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "net471": {
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+    }
+  },
+  "runtimes": {
+    "win7-x86": {
+      "#import": []
+    }
+  }
+}
