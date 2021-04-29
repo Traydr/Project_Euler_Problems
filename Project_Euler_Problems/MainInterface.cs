@@ -6,6 +6,7 @@
         {
             //ProblemOne.CalcSumOfMultiplesBelowOneThousand();
             //ProblemTwo.FindSumOfEvenFibNumbers();
+            ProblemThree.FindLargestPrimeFactorOfNum();
         }
     }
 }
