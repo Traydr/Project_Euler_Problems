@@ -18,7 +18,7 @@ namespace Project_Euler_Problems
             int indexCounter = 0;
             int maxPrimeFactor = 0;
 
-            for (int i = 3; i < targetNumber / 3 && targetNumber != 0;)
+            for (int i = 3; i <= targetNumber && targetNumber != 0;)
             {
                 if (CheckIfNumIsPrime(i))
                 {
@@ -26,6 +26,8 @@ namespace Project_Euler_Problems
                     {
                         targetNumber /= i;
                         allPrimeFactors[indexCounter] = i;
+                        
+                        Console.WriteLine($"Current targetNum {targetNumber} | Current i {i}");
                     }
                 }
                 
