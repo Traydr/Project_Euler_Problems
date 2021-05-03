@@ -9,7 +9,8 @@
             //ProblemThree.FindLargestPrimeFactorOfNum();
             //ProblemFour.Start();
             //ProblemFive.Start();
-            ProblemSix.Start();
+            //ProblemSix.Start();
+            ProblemSeven.Start();
         }
     }
 }
