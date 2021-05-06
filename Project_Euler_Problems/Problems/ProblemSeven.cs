@@ -50,5 +50,24 @@ namespace Project_Euler_Problems
             
             Console.WriteLine($"Prime: {lastPrime} \nPrime Index: {currentPrimeIndex}");
         }
+
+        static void NewFindSpecificPrimeNum(int primeIndex)
+        {
+            int[] previousPrimes = { 2, };
+            int primeCandidate = 3;
+            /* New thing I want to implement
+            1. Define array to hold prime numbers.
+            2. populate prime numbers array with '2'.
+            3. set first prime candidate to '3'
+            4. set test limit to square root of prime candidate.
+            5. Check if prime candidate is divisible by numbers in prime array. 
+            (upper limit for testing prime number<=root from step 4.) 
+            If divisible discard else add to prime numbers array.
+            6. increment prime candidate by 2.
+            7. goto step 4. This has served fairly well for me. 
+            Difficulties lie in deciding how many prime numbers are needed. 
+            The progress is slower as the prime candidate gets bigger.
+            */
+        }
     }
 }
