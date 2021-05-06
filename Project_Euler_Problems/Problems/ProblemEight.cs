@@ -19,12 +19,12 @@ namespace Project_Euler_Problems
 
         static void ThirteenDigitsWithGreatestProduct(string giantNumber)
         {
-            int largestProduct = 0;
+            long largestProduct = 0;
             string largestProductSection = "";
 
             for (int i = 0; i < giantNumber.Length - 13; i++)
             {
-                int productOfDigits = 1;
+                long productOfDigits = 1;
                 string section = giantNumber.Substring(i, 13);
 
                 foreach (char num in section)
