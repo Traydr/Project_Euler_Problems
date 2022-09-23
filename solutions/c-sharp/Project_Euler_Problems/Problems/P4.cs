@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Diagnostics;
 
-namespace Project_Euler_Problems
+namespace Project_Euler_Problems.Problems
 {
-    public class ProblemFour
+    public class P4
     {
         /* Problem 4
          * Largest Palindrome Product
@@ -14,10 +13,11 @@ namespace Project_Euler_Problems
 
         public static void Start()
         {
-            CheckForPalindromes();
+            P4 p4 = new P4();
+            p4.CheckForPalindromes();
         }
 
-        private static bool IsPalindrome(int num)
+        private bool IsPalindrome(int num)
         {
             bool isPalindrome = false;
             string numAsString = num.ToString();
@@ -35,7 +35,7 @@ namespace Project_Euler_Problems
             return isPalindrome;
         }
 
-        static void CheckForPalindromes()
+        private void CheckForPalindromes()
         {
             int firstNum = 99;
             int palFirstNum = 0;

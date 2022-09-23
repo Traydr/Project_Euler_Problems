@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Runtime.InteropServices;
 
-namespace Project_Euler_Problems
+namespace Project_Euler_Problems.Problems
 {
-    public static class ProblemTwo
+    public class P2
     {
         /* Problem 2
          * Even Fibonacci numbers
@@ -13,13 +12,18 @@ namespace Project_Euler_Problems
          * find the sum of the even-valued terms.
          */
 
-        public static void FindSumOfEvenFibNumbers()
+        public static void Start()
+        {
+            P2 p2 = new P2();
+            p2.FindSumOfEvenFibNumbers();
+        }
+
+        private void FindSumOfEvenFibNumbers()
         {
             int sequenceMax = 4000000;
             int sumOfEvenNums = 0;
             int previousFibNum = 1;
             int currentFibNum = 2;
-            int nextFibNum = 0;
 
             while (currentFibNum < sequenceMax)
             {
@@ -28,7 +32,7 @@ namespace Project_Euler_Problems
                     sumOfEvenNums += currentFibNum;
                 }
 
-                nextFibNum = currentFibNum + previousFibNum;
+                int nextFibNum = currentFibNum + previousFibNum;
                 previousFibNum = currentFibNum;
                 currentFibNum = nextFibNum;
             }

@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Project_Euler_Problems
+namespace Project_Euler_Problems.Problems
 {
-    public class ProblemSix
+    public class P6
     {
         /* Problem 6
          * Sum square difference
@@ -25,9 +25,9 @@ namespace Project_Euler_Problems
             }
 
             sumOfOneHundredNumsSquared = sumOfOneHundredNumsSquared * sumOfOneHundredNumsSquared;
-            int diffrenceBetweenSquares = sumOfOneHundredNumsSquared - sumOfOneHundredNumsSquaredEach;
+            int differenceBetweenSquares = sumOfOneHundredNumsSquared - sumOfOneHundredNumsSquaredEach;
             
-            Console.WriteLine($"The diffrence is: {diffrenceBetweenSquares}");
+            Console.WriteLine($"The difference is: {differenceBetweenSquares}");
         }
     }
 }

@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Project_Euler_Problems
+namespace Project_Euler_Problems.Problems
 {
-    public class ProblemFive
+    public class P5
     {
         /* Problem 5
          * Smallest Multiple
@@ -12,10 +12,11 @@ namespace Project_Euler_Problems
 
         public static void Start()
         {
-            SmallestMultiple();
+            P5 p5 = new P5();
+            p5.SmallestMultiple();
         }
 
-        private static void SmallestMultiple()
+        private void SmallestMultiple()
         {
             bool isSmallestMultiple = false;
             long counter = 2520;
@@ -34,7 +35,7 @@ namespace Project_Euler_Problems
             Console.WriteLine($"The smallest multiple is: {counter}");
         }
 
-        static bool CheckIfDivisbleByFirstTwentyNums(long num)
+        bool CheckIfDivisbleByFirstTwentyNums(long num)
         {
             bool isDivisble = true;
 

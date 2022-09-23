@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Security.Permissions;
 
-namespace Project_Euler_Problems
+namespace Project_Euler_Problems.Problems
 {
-    public class ProblemSeven
+    public class P7
     {
         /* Problem 7
          * 10001st prime
@@ -12,26 +11,23 @@ namespace Project_Euler_Problems
          */
         public static void Start()
         {
-            FindSpecificPrimeNum(10001);
+            P7 p7 = new P7();
+            p7.FindSpecificPrimeNum(10001);
         }
 
-        static bool CheckIfPrime(int num)
+        private static bool CheckIfPrime(int num)
         {
-            bool isPrime = true;
-
             for (int i = 2; i < num - 1; i++)
             {
                 if (num % i == 0)
                 {
-                    isPrime = false;
-                    return isPrime;
+                    return false;
                 }
             }
-
-            return isPrime;
+            return true;
         }
-
-        static void FindSpecificPrimeNum(int primeIndex)
+        
+        private void FindSpecificPrimeNum(int primeIndex)
         {
             int currentPrimeIndex = 6;
             int lastPrime = 13;
