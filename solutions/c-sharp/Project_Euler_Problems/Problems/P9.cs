@@ -1,5 +1,4 @@
 using System;
-using static System.Math;
 
 namespace Project_Euler_Problems.Problems
 {
