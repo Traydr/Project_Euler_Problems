@@ -1,5 +1,5 @@
-/idea/
+**/idea/
 
-solutions/c-sharp/Project_Euler_Problems/obj/
+**/obj/
 
-solutions/c-sharp/Project_Euler_Problems/bin/Debug/
+**/bin/Debug/
