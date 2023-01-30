@@ -2,7 +2,7 @@
 
 namespace Project_Euler_Problems.Problems
 {
-    public class P6
+    public class P006
     {
         /* Problem 6
          * Sum square difference

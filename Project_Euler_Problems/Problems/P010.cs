@@ -2,11 +2,11 @@ using System;
 
 namespace Project_Euler_Problems.Problems
 {
-    public class P10
+    public class P010
     {
         public static void Start()
         {
-            P10 p10 = new P10();
+            P010 p10 = new P010();
             p10.FindSumOfPrimesUnderLimit(2000000);
         }
 

@@ -2,7 +2,7 @@
 
 namespace Project_Euler_Problems.Problems
 {
-    public class P4
+    public class P004
     {
         /* Problem 4
          * Largest Palindrome Product
@@ -13,7 +13,7 @@ namespace Project_Euler_Problems.Problems
 
         public static void Start()
         {
-            P4 p4 = new P4();
+            P004 p4 = new P004();
             p4.CheckForPalindromes();
         }
 

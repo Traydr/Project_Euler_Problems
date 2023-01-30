@@ -2,7 +2,7 @@ using System;
 
 namespace Project_Euler_Problems.Problems;
 
-public class P14
+public class P014
 {
     public static void Start()
     {

@@ -3,7 +3,7 @@ using static System.Math;
 
 namespace Project_Euler_Problems.Problems
 {
-    public class P11
+    public class P011
     {
         private int[,] _matrix;
         private const int MinRow = 3;
@@ -14,7 +14,7 @@ namespace Project_Euler_Problems.Problems
 
         public static void Start()
         {
-            P11 p11 = new P11();
+            P011 p11 = new P011();
             int limit = 20;
             int[,] arrayOfNums =
             {

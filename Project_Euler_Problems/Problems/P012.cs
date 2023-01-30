@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Project_Euler_Problems.Problems;
 
-public class P12
+public class P012
 {
     public static void Start()
     {
@@ -81,11 +81,12 @@ public class P12
     {
         // Taken from https://www.geeksforgeeks.org/find-all-divisors-of-a-natural-number-set-2/
         List<long> factors = new List<long>();
-        for(int i = 1; i * i < n; i++)
+        for (int i = 1; i * i < n; i++)
         {
             if (n % i == 0) factors.Add(i);
         }
-        for(int i = (int)Math.Sqrt(n); i >= 1; i--)
+
+        for (int i = (int)Math.Sqrt(n); i >= 1; i--)
         {
             if (n % i == 0) factors.Add(n / i);
         }

@@ -2,7 +2,7 @@
 
 namespace Project_Euler_Problems.Problems
 {
-    public class P5
+    public class P005
     {
         /* Problem 5
          * Smallest Multiple
@@ -12,7 +12,7 @@ namespace Project_Euler_Problems.Problems
 
         public static void Start()
         {
-            P5 p5 = new P5();
+            P005 p5 = new P005();
             p5.SmallestMultiple();
         }
 
@@ -31,7 +31,7 @@ namespace Project_Euler_Problems.Problems
                     counter += 2520;
                 }
             }
-            
+
             Console.WriteLine($"The smallest multiple is: {counter}");
         }
 

@@ -2,11 +2,11 @@ using System;
 
 namespace Project_Euler_Problems.Problems
 {
-    public class P9
+    public class P009
     {
         public static void Start()
         {
-            P9 p9 = new P9();
+            P009 p9 = new P009();
             p9.FindPythagoreanTriplet(1000);
         }
 
@@ -32,7 +32,7 @@ namespace Project_Euler_Problems.Problems
                     }
                 }
             }
-            
+
             Console.WriteLine($"Triple is a:{a} b:{b} c:{c}");
             Console.WriteLine($"Sum of those is: {a * b * c}");
         }

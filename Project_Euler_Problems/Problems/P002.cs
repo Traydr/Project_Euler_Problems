@@ -2,7 +2,7 @@
 
 namespace Project_Euler_Problems.Problems
 {
-    public class P2
+    public class P002
     {
         /* Problem 2
          * Even Fibonacci numbers
@@ -14,7 +14,7 @@ namespace Project_Euler_Problems.Problems
 
         public static void Start()
         {
-            P2 p2 = new P2();
+            P002 p2 = new P002();
             p2.FindSumOfEvenFibNumbers();
         }
 

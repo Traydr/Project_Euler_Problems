@@ -2,7 +2,7 @@
 
 namespace Project_Euler_Problems.Problems
 {
-    public class P7
+    public class P007
     {
         /* Problem 7
          * 10001st prime
@@ -11,7 +11,7 @@ namespace Project_Euler_Problems.Problems
          */
         public static void Start()
         {
-            P7 p7 = new P7();
+            P007 p7 = new P007();
             p7.FindSpecificPrimeNum(10001);
         }
 

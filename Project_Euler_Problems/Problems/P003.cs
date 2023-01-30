@@ -3,7 +3,7 @@ using Project_Euler_Problems.Utilities;
 
 namespace Project_Euler_Problems.Problems
 {
-    public class P3
+    public class P003
     {
         /* Problem 3
          * Largest Prime Factor
@@ -12,7 +12,7 @@ namespace Project_Euler_Problems.Problems
          */
         public static void Start()
         {
-            P3 p3 = new P3();
+            P003 p3 = new P003();
             p3.FindLargestPrimeFactorOfNum();
         }
 

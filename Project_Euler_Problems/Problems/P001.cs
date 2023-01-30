@@ -2,7 +2,7 @@
 
 namespace Project_Euler_Problems.Problems
 {
-    public class P1
+    public class P001
     {
         /* Problem 1 Description
          * Multiples of 3 and 5
@@ -11,7 +11,7 @@ namespace Project_Euler_Problems.Problems
          */
         public static void Start()
         {
-            P1 p1 = new P1();
+            P001 p1 = new P001();
             p1.CalcSumOfMultiplesBelowOneThousand();
         }
 

@@ -7,15 +7,15 @@ namespace Project_Euler_Problems
     {
         public static void Main()
         {
-            //P1.Start();
-            //P2.Start();
-            //P3.Start();
-            //P4.Start();
-            //P5.Start();
-            //P6.Start();
-            //P7.Start();
-            //P8.Start();
-            P9.Start();
+            //P001.Start();
+            //P002.Start();
+            //P003.Start();
+            //P004.Start();
+            //P005.Start();
+            //P006.Start();
+            //P007.Start();
+            //P008.Start();
+            P009.Start();
         }
     }
 }

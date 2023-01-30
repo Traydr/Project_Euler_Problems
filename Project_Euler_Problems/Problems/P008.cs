@@ -2,7 +2,7 @@
 
 namespace Project_Euler_Problems.Problems
 {
-    public class P8
+    public class P008
     {
         /* Problem 8
          * Largest product in a series
@@ -11,7 +11,7 @@ namespace Project_Euler_Problems.Problems
          */
         public static void Start()
         {
-            P8 p8 = new P8();
+            P008 p8 = new P008();
             string giantNumber =
                 "73167176531330624919225119674426574742355349194934969835203127745063262395783180169848018694788518" +
                 "43858615607891129494954595017379583319528532088055111254069874715852386305071569329096329522744304" +
